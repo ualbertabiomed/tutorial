@@ -33,7 +33,7 @@ void setup() {
 /*
     continuously runs while the arduino is turned on
 */
-void setup() {
+void loop() {
     x++;
 
     // continuously prints the value of x
