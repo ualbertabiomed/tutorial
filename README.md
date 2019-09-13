@@ -4,11 +4,6 @@ This repository is used to have new members setup their personal computers with 
 ## Installation
 Follow the instructions according to your operating system
 
-### OS Independent Instructions
-#### Clone the exoskeleton repo locally
-```
-git clone https://github.com/ualbertabiomed/exoskeleton.git
-```
 ### Initial Windows and MacOS Instructions
 #### Clone the Arduino-Makefile repo locally
 ```
