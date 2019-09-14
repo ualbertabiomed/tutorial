@@ -1,7 +1,7 @@
 # tutorial 
-This 
+This repository is used for new members to complete the assigned task below to be granted full access to the ALEX repository and begin work on the exoskelton project. 
 
-# the task
+# The task
 1. Find and clone the “tutorial” repository from the UAlberta Biomed GitHub organization to your local computer 
 2. Create a new branch with your name (firstname-lastname) 
 3. Create either a new C++ file or Python file (i.e. helloworld.cpp or helloworld.py)
