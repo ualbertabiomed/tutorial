@@ -10,9 +10,9 @@ This repository is used for new members to complete the assigned task below to b
     - Then, call a function that iteratively computes the first 20 numbers in the Fibonacci sequence. Add a delay (you decide how long) after each computation and print each number on a new line in the terminal
     - Print “Task Complete!” after the first 20 numbers have been printed. 
 (Note: you cannot hard code these numbers into your program)
-    - Test your code (just check to see if it compiles) 
-    - Check to see if it compiles, you should not get any errors
-    - Pipe the terminal output into a text file (output.txt) in the same directory
+    - Test your code 
+      - Check to see if it compiles, you should not get any errors
+      - Pipe the terminal output into a text file (output.txt) in the same directory
     - Add/commit your program and output file; use an appropriate commit message
 5. Once you have completed all the steps, push your branch to the tutorial repo 
 6. Message your team lead that you have completed this exercise
