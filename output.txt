@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0859c73712267c7b47c717177e309b36dbae841c
 What is your name?
 Daren
 Hello World, my name is Daren
@@ -22,4 +26,33 @@ Hello World, my name is Daren
 2584
 4181
 6765
+<<<<<<< HEAD
+=======
+=======
+What is your name?
+Daren
+Hello World, my name is Daren
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+987
+1597
+2584
+4181
+6765
+>>>>>>> 56cf3716c06986a76aca042c284b73a2eb574cda
+>>>>>>> 0859c73712267c7b47c717177e309b36dbae841c
 Task Complete!
