@@ -13,6 +13,8 @@ using namespace std;
 	int main()
 {
 	int i = 0;
+	int ii = 1;
+	int j = 0; 
 	int fibonacci = 0;
 	string name;
 	ofstream myfile;
@@ -29,10 +31,13 @@ using namespace std;
 
 	while (i < 20)
 	{
-		fibonacci += 1;
 		cout << fibonacci << endl;
-		Sleep(500);
+		fibonacci = ii + j;
 
+		ii = j;
+		j = fibonacci;
+		Sleep(500);
+		
 	/*For output.txt*/
 		myfile << fibonacci;
 
