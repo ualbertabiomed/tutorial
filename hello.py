@@ -1,9 +1,9 @@
-# Biomed Tutorial Task
+# Biomed Tutorial Task - Python (>=3.6)
 # Jehanzeb Mirza
 
 import time
 
-# Compute and Print Fibonacci numbers iteratively
+# Compute and Print the first n Fibonacci numbers iteratively
 def disp_fib(n):
     # Initial numbers
     n1 = 1
