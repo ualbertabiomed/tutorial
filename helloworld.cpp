@@ -13,9 +13,9 @@ using namespace std;
 	int main()
 {
 	int i = 0;
-	int ii = 1;
-	int j = 0; 
 	int fibonacci = 0;
+	int ii = 0;
+	int j = 1;
 	string name;
 	ofstream myfile;
 
@@ -27,19 +27,27 @@ using namespace std;
 	
 	/* For output.txt*/
 	myfile<< "Please enter your name: ";
+	myfile << name << endl;
 	myfile << "Hello World, my name is " << name << ".\n";
 
 	while (i < 20)
 	{
-		cout << fibonacci << endl;
+		if (fibonacci == 0)
+		{
+			cout << ii << endl;
+			Sleep(500);
+			cout << j << endl;
+			Sleep(500);
+			i = 2;
+		}
 		fibonacci = ii + j;
-
 		ii = j;
 		j = fibonacci;
+		cout << fibonacci << endl;
 		Sleep(500);
-		
+
 	/*For output.txt*/
-		myfile << fibonacci;
+		myfile << fibonacci << endl;
 
 		i++;
 	}
@@ -48,6 +56,7 @@ using namespace std;
 
 	/*For output.txt*/
 	myfile << "Tast Complete!";
+	myfile.close();
 
 	getchar();
 	return 0;
