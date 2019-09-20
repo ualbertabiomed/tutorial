@@ -1,0 +1,36 @@
+def hello_world():
+    print("Hello World, my name is matheas")
+
+def fibonacci_sequence():
+    fibonacci_list = [0,1]
+
+    f=open("output.txt",'w+')
+
+    #writes to txt file
+    f.write("%d\r" % fibonacci_list[0])
+    f.write("%d\r" % fibonacci_list[1])
+
+    #prints to terminal
+    print(fibonacci_list[0])
+    time.sleep(0.5)
+    print(fibonacci_list[1])
+
+    for i in range(2,21):
+        #compute next number in sequence and add to list
+        fibonacci_list.append(int(fibonacci_list[i-2]+fibonacci_list[i-1]))
+
+        #delay for a second
+        time.sleep(0.5)
+
+        #print the next number in the sequence and writes to txt file
+        print(str(fibonacci_list[i]))
+        f.write("%d\r" % fibonacci_list[i])
+    print("Task Complete!")
+    f.write("Task Complete!")
+
+    f.close()
+    
+if __name__ == '__main__':
+import time
+hello_world()
+fibonacci_sequence()
